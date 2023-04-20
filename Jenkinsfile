@@ -4,7 +4,7 @@ pipeline {
         stage('Init') {
             steps {
                 echo 'Hi, this is init deveops project'
-                echio 'We are starting the testing'
+                echo 'We are starting the testing'
             }
         }
         stage('Build'){
